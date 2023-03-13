@@ -1,0 +1,52 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+body {
+    background-color: rgb(190, 216, 223);
+}
+.headers {
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+h1 {
+    text-align: center;
+}
+#remainingTime {
+    color:rgb(72, 131, 33);
+}
+
+.square {
+    border-style: solid;
+    border-color:#fff;
+    height: 200px;
+    width: 200px;
+}
+
+.playGrid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 700px;
+    height: 700px;
+}
+
+
+.mole {
+    background-image: url(img/images.jpg);
+    background-size: cover;
+}
+
+#startGame {
+    display: flex;
+    margin-left: 300px;
+    padding: 10px 20px;
+    border: #fff;
+    border-radius: 20px;
+    color: #fff;
+    background: linear-gradient(to bottom, #839425 0%,#82925c 50%,#7a9644 51%,#9ecb2d 100%);
+    box-shadow: 5px 5px 5px 1px #ccc;
+    text-shadow: 1px 1px #fff;
+}
